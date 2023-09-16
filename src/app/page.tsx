@@ -1,6 +1,7 @@
 import Navbar from "@/components/body/Navbar";
+import Features from "@/components/sections/Features";
 import Hero from "@/components/sections/Hero";
-import Image from "next/image";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
         <Hero />
       </header>
       <main>
-        {/* <Features /> */}
-        {/* <Projects /> */}
+        <Features />
+        <Projects />
         {/* <Resume /> */}
         {/* <Contact /> */}
       </main>
