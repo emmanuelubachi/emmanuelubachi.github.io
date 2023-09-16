@@ -76,13 +76,14 @@ const Hero = () => {
             lg:text-lg
             lg:leading-8 lg:mb-8"
           >
-            I am your gateway to unleashing the potential of data. Crafting
+            I am your gateway to unleashing the potential of your data. Crafting
             captivating data visualizations, immersive dashboards, and
-            transformative data platforms is my expertise. From concept to
+            transformative data platforms.
+          </p>
+          {/* From concept to
             deployment, I&apos;m your partner in leveraging data&apos;s power
             for a competitive edge. Explore the future of data-driven success
-            with me.
-          </p>
+            with me. */}
           <div className="flex md:order-2">
             <button
               type="button"

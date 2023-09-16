@@ -8,32 +8,6 @@ import Proj1 from "/public/interactiveMap.jpeg";
 import Proj2 from "/public/tradeFlow.jpeg";
 
 const Projects = () => {
-  const projectList = [
-    {
-      title1: "Uncover Impactful Insights",
-      desc: "Utilizing statistical modeling and data mining techniques to uncover trends, patterns and actionable insights from complex data",
-      imgSrc: "string",
-      imgAlt: "string",
-      projUrl: "string",
-    },
-
-    {
-      title: "Building Intuitive Interfaces",
-      desc: "Developing responsive, user-friendly web applications and dashboards that bring data to life for users and stakeholders.",
-      imgSrc: "string",
-      imgAlt: "string",
-      projUrl: "string",
-    },
-
-    {
-      title: "Telling Compelling Stories",
-      desc: "Creating interactive data visualizations that intuitively communicate key information and insights to diverse audiences.",
-      imgSrc: "string",
-      imgAlt: "string",
-      projUrl: "string",
-    },
-  ];
-
   return (
     <section id="projects" className="pt-12">
       {/* <hr className="h-px max-w-screen-xl mx-auto bg-gray-200 border-0" /> */}
