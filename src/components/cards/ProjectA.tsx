@@ -10,7 +10,7 @@ const ProjectA = ({
   projUrl,
 }: ProjectCardProps) => {
   return (
-    <div className="sm:mb-4">
+    <div className="lg:mb-20  sm:mb-4">
       <div
         className="gap-8 items-center
         mx-auto 
@@ -28,19 +28,18 @@ const ProjectA = ({
 
         <div className="mt-4 md:mt-0">
           <h3
-            className="mb-4 text-gray-600
+            className="mb-2 text-gray-600
           tracking-tight 
           font-semibold
-          text-xl
-          sm:text-2xl
-          md:text-2xl
-          lg:text-3xl"
+          text-lg
+          sm:text-xl
+          lg:text-2xl"
           >
             {title}
           </h3>
           <p
-            className="mb-6 font-light text-gray-500 
-          lg:text-lg"
+            className="mb-6 font-light text-gray-500
+            text-sm lg:text-base"
           >
             {desc}
           </p>
