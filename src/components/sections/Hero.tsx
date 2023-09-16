@@ -69,7 +69,7 @@ const Hero = () => {
           <p
             className="max-w-2xl mb-6
             text-gray-600 
-            font-normal 
+            font-light 
             text-base leading-7 tracking-tight
             sm:text-lg sm:leading-8
             md:text-base md:leading-7 md:tracking-tight
