@@ -114,11 +114,15 @@ const Navbar = () => {
                 <Link
                   href={items.url}
                   className="block py-2 pl-3 pr-4 
-                  font-normal text-gray-600 
+                  font-light text-gray-500 
+                  text-sm uppercase
                   rounded 
                   hover:bg-gray-100 
-                  md:hover:bg-transparent 
-                  md:hover:text-blue-700 md:p-0"
+                  md:hover:bg-transparent
+                  md:hover:-translate-y- md:hover:scale-110 ease-in-out duration-200 hover:font-medium
+                  md:hover:text-primary-700 
+                
+                  md:p-0"
                   aria-current="page"
                 >
                   {items.name}
