@@ -22,6 +22,9 @@ const config: Config = {
           900: "#1e3a8a",
           950: "#172554",
         },
+        "pri-1": "#919e8b",
+        "pri-12": "#e3e0cd",
+        "pri-13": "#cfaa23",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
