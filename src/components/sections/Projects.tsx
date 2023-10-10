@@ -22,7 +22,8 @@ const Projects = () => {
             sm:text-lg
           text-gray-500"
           >
-            Crafted with skill and care to help our clients grow their business!
+            {/* Crafted with skill and care to help our clients grow their business! */}
+            Expertly crafted with skill and precision to elevate our clients&apos; project!
           </p>
         </div>
         <div className="space-y-12 sm:space-y-16">
@@ -35,14 +36,14 @@ const Projects = () => {
           /> */}
           <ProjectB
             title="Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo"
-            desc="Developed interactive dashboards using Power BI to visualise Copper & Cobalt production in DR Congo by analysing complex datasets using Python (Pandas). Developed customised data models and advanced visualisations that delivered actionable insights, empowering stakeholders with valuable resources for data-driven decisions regarding mining sector complexities."
+            desc="Developed interactive dashboards using Power BI to visualize Copper & Cobalt production in DR Congo by analysing complex datasets using Python (Pandas). Developed customised data models and advanced visualisations that delivered actionable insights, empowering stakeholders with valuable resources for data-driven decisions regarding mining sector complexities."
             imgSrc={Proj2}
             imgAlt="Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo Project Image"
             projUrl="https://chinaglobalsouth.com/cobaltmap/en/production-flow.html"
           />
           <ProjectA
             title="Interactive Map of Copper & Cobalt Production in the DR Congo"
-            desc="Designed interactive map showcasing Copper & Cobalt production in DR Congo by building crafting visualisations leveraging mining registry data and on-ground research; delivered insights to industry stakeholders in an easy-to-understand and visually compelling format."
+            desc="Designed interactive map showcasing Copper & Cobalt production in DR Congo by building crafting visualizations leveraging mining registry data and on-ground research; delivered insights to industry stakeholders in an easy-to-understand and visually compelling format."
             imgSrc={Proj1}
             imgAlt="Interactive Map of Copper & Cobalt Production in the DR Congo Project Image"
             projUrl="https://chinaglobalsouth.com/cobaltmap/en/"
