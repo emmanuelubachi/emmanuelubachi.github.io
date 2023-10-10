@@ -14,7 +14,7 @@ type ProjectCardProps = {
 
 type ExperienceProp = {
   title: string;
-  url?: string;
+  url?: string | undefined;
   time: string;
   desc: string;
   isLink?: boolean;
