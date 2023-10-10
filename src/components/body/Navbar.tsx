@@ -27,7 +27,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      name: "Resume",
+      name: "Experience",
       url: "#resume",
     },
     {
