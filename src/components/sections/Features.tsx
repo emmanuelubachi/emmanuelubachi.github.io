@@ -44,7 +44,7 @@ const Features = () => {
     {
       icon: faChartBar,
       title: "Uncover Impactful Insights",
-      desc: "Utilizing statistical modeling and data mining techniques to uncover trends, patterns and actionable insights from complex data.",
+      desc: "Utilizing statistical modelling and data mining techniques to uncover trends, patterns and actionable insights from complex data.",
     },
 
     {
@@ -67,7 +67,7 @@ const Features = () => {
 
     {
       icon: faChartArea,
-      title: "Actionable Predictive Modeling",
+      title: "Actionable Predictive Modelling",
       desc: "I build, evaluate and implement machine learning models to uncover predictive insights from data.",
     },
   ];
