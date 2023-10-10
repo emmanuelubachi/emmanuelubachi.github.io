@@ -30,6 +30,7 @@ const Resume = () => {
     {
       id: 4,
       title: "Volunteer",
+      url: "/",
       time: "May 7th, 2021",
       desc: "SamFav International School - Nigeria",
       isLink: false,
@@ -37,6 +38,7 @@ const Resume = () => {
     {
       id: 5,
       title: "Computer Technician",
+      url: "/",
       time: "May 2016",
       desc: "FranceMan Ltd - Nigeria",
       isLink: false,
