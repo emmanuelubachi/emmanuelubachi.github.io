@@ -64,6 +64,7 @@ const ProjectB = ({
           className="w-full p-1 order-first md:order-last rounded-lg"
           src={imgSrc}
           alt={imgAlt}
+          priority
           width={500}
           height={400}
         />

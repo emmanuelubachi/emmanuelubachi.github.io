@@ -22,6 +22,7 @@ const ProjectA = ({
           className="w-full p-1 rounded-lg"
           src={imgSrc}
           alt={imgAlt}
+          priority
           width={500}
           height={400}
         />
