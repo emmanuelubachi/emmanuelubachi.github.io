@@ -8,9 +8,9 @@ const ExperienceCard = ({  title, url, time, desc, isLink }: ExperienceProp) => 
     <Link href={url} target="_blank" className="mb-10 ml-6">
       <div
         className="relative group border-l-2 border-l-primary-800
-        p-8 rounded-e-3xl
-        bg-gradient-to-bl from-gray-200 to-white 
-        shadow-md shadow-gray-200
+        p-8 rounded-e-full
+        bg-gradient-to-bl from-gray-100 to-white 
+        shadow-lg shadow-gray-200
         hover:bg-gradient-to-tr hover:from-primary-800 hover:to-pink-500 
         text-gray-600 hover:text-white
         transition ease-in-out
@@ -39,9 +39,9 @@ const ExperienceCard = ({  title, url, time, desc, isLink }: ExperienceProp) => 
     <div className="mb-10 ml-6">
       <div
         className="relative group border-l-2 border-l-primary-800
-        p-8 rounded-e-3xl
-        bg-gradient-to-bl from-gray-200 to-white 
-        shadow-md shadow-gray-200
+        p-8 rounded-e-full
+        bg-gradient-to-bl from-gray-100 to-white 
+        shadow-lg shadow-gray-200
         hover:bg-gradient-to-tr hover:from-primary-800 hover:to-pink-500 
         text-gray-600 hover:text-white
         transition ease-in-out
