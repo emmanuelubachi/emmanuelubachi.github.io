@@ -14,8 +14,10 @@ type ProjectCardProps = {
 
 type ExperienceProp = {
   title: string;
+  url?: string;
   time: string;
   desc: string;
+  isLink?: boolean;
 };
 
 type EducationProp = {
