@@ -30,11 +30,11 @@ const Navbar = () => {
       name: "Experience",
       url: "#resume",
     },
-    {
-      id: 5,
-      name: "Contact",
-      url: "#contact",
-    },
+    // {
+    //   id: 5,
+    //   name: "Contact",
+    //   url: "#contact",
+    // },
   ];
 
   return (
@@ -57,7 +57,7 @@ const Navbar = () => {
           </span>
         </a>
         <div className="flex md:order-2">
-          <button
+          {/* <button
             type="button"
             className="text-white 
             bg-primary-900 
@@ -71,7 +71,7 @@ const Navbar = () => {
             focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             BOOK A CALL
-          </button>
+          </button> */}
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
