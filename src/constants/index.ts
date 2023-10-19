@@ -1,7 +1,7 @@
 export const PROJECT = [
   {
     title: "Hilink Travel App - Putuk Truno Camp Area",
-    desc: "Designed and developed a travel app for exploring the Putuk Truno Camp Area. Implemented UI/UX enhancements for a user-friendly experience. Utilized React.js and Next.js for seamless navigation.",
+    desc: "Developed a travel app for exploring the Putuk Truno Camp Area. Implemented UI/UX enhancements for a user-friendly experience. Utilized React.js and Next.js for seamless navigation.",
     imgSrc: "/travelApp.png",
     imgAlt: "Hilink Travel App - Putuk Truno Camp Area Project Image",
     projUrl: "https://travel-app-pi-beryl.vercel.app/",
@@ -32,7 +32,7 @@ export const PROJECT = [
   {
     title:
       "Pacific Food Trade: Data-Driven Insights and Data Visualization Development",
-    desc: "Developed on the Pacific Food Trade project to deliver data-driven insights through data visualization and Python analysis. Utilized JavaScript and Next.js for frontend development, incorporating Echarts for compelling visualizations.",
+    desc: "Designed and developed on the Pacific Food Trade project to deliver data-driven insights through data visualization and Python analysis. Utilized JavaScript and Next.js for frontend development, incorporating Echarts for compelling visualizations.",
     imgSrc: "/pacificfood.png",
     imgAlt: "Pacific Food Trade Project Image",
     projUrl: "https://ubachi.com/feeding-the-pacific/",
@@ -47,7 +47,7 @@ export const PROJECT = [
   },
   {
     title: "Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo",
-    desc: "Built Power BI dashboards to visualize Copper & Cobalt production in DR Congo by analyzing data with Python. Created models and visuals that provided insights for data-driven decisions on mining complexities.",
+    desc: "Designed and developed Power BI dashboards to visualize Copper & Cobalt production in DR Congo by analyzing data with Python. Created models and visuals that provided insights for data-driven decisions on mining complexities.",
     imgSrc: "/tradeflow.png",
     imgAlt:
       "Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo Project Image",
@@ -63,7 +63,7 @@ export const PROJECT = [
   },
   {
     title: "Interactive Map of Copper & Cobalt Production in the DR Congo",
-    desc: "Created interactive map of Copper & Cobalt production in DR Congo using visualizations and data from mining registry and field research. Delivered visually compelling insights to industry stakeholders.",
+    desc: "Designed an interactive map of Copper & Cobalt production in DR Congo using visualizations and data from mining registry and field research. Delivered visually compelling insights to industry stakeholders.",
     imgSrc: "/interactivemap.png",
     imgAlt:
       "Interactive Map of Copper & Cobalt Production in the DR Congo Project Image",
