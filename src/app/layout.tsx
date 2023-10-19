@@ -5,8 +5,25 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Emmanuel Ubachi - Data Visualization, Dashboards, Data Analytsis",
-  description: "Emmanuel Ubachi's website",
+  title:
+    "Emmanuel Ubachi - Data Visualization, Data Analytics, BI Development, Web Development",
+  description:
+    "Emmanuel Ubachi - Data Visualization, Dashboards, Data Analytsis",
+  keywords: [
+    "data visualization",
+    "Data Visualization Development",
+    "dashboard",
+    "Data Analytics",
+    "Business Information Development",
+    "BI Development",
+    "Power BI",
+    "Power BI Dashboards",
+    "Beautiful Dashboards",
+    "Beautiful Dashboards UI",
+    "Beautiful Dashboards design",
+    "Beautiful Dashboards User interface",
+    "Web Development",
+  ],
 };
 
 export default function RootLayout({
