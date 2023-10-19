@@ -75,7 +75,6 @@ const Project = (props: ProjectCardProps) => {
                   className="w-full p-1 order-first md:order-last rounded-xl "
                   src={imgSrc}
                   alt={imgAlt}
-                  priority
                   width={500}
                   height={500}
                 />
@@ -102,7 +101,6 @@ const Project = (props: ProjectCardProps) => {
                   className="w-full p-1 rounded-xl"
                   src={imgSrc}
                   alt={imgAlt}
-                  priority
                   width={500}
                   height={500}
                 />
@@ -184,7 +182,6 @@ const Project = (props: ProjectCardProps) => {
                   className="w-full p-1 order-first md:order-last rounded-xl "
                   src={imgSrc}
                   alt={imgAlt}
-                  priority
                   width={500}
                   height={500}
                 />
@@ -211,7 +208,6 @@ const Project = (props: ProjectCardProps) => {
                   className="w-full p-1 rounded-xl"
                   src={imgSrc}
                   alt={imgAlt}
-                  priority
                   width={500}
                   height={500}
                 />

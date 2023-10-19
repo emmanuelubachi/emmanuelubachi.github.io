@@ -101,8 +101,7 @@ const Hero = () => {
               shadow-[35px_30px_70px_-25px_rgba(0,0,0,0.3)] shadow-blue-200 drop-shadow-2xl"
               src={HeroImg}
               alt="A picture of Emmanuel Ubachi"
-              priority
-              //placeholder="blur"
+              priority={true}
               style={{
                 maxWidth: "60%",
                 height: "auto",
@@ -117,8 +116,7 @@ const Hero = () => {
             transition-transform hover:scale-100 cursor-pointer"
             src={HeroImg}
             alt="A picture of Emmanuel Ubachi"
-            priority
-            //placeholder="blur"
+            priority={true}
             style={{
               maxWidth: "100%",
               height: "auto",

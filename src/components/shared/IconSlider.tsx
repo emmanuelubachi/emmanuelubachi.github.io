@@ -15,6 +15,7 @@ const IconSlider = () => {
               alt={item.alt}
               width={150}
               height={50}
+              priority={true}
               className={styles.slide_icon}
             />
           ))}
