@@ -83,7 +83,6 @@ const Features = () => {
           <p
             className="mt-4 font-normal
             text-base
-            sm:text-lg
           text-gray-500"
           >
             Empowering Data-Driven Web Solutions!

@@ -1,11 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import HeroImg from "/public/eu1.png";
-import ProjectA from "../cards/ProjectA";
-import ProjectB from "../cards/ProjectB";
-import { title } from "process";
-import Proj1 from "/public/interactiveMap.jpeg";
-import Proj2 from "/public/tradeFlow.jpeg";
+import { Fragment } from "react";
+
+import Project from "../cards/Project";
+
+import { PROJECT } from "@/constants";
 
 const Projects = () => {
   return (
@@ -19,35 +16,19 @@ const Projects = () => {
           <p
             className="mt-4 font-normal
             text-base
-            sm:text-lg
           text-gray-500"
           >
             {/* Crafted with skill and care to help our clients grow their business! */}
-            Expertly crafted with skill and precision to elevate our clients&apos; project!
+            Expertly crafted with skill and precision to elevate our
+            clients&apos; project!
           </p>
         </div>
-        <div className="space-y-12 sm:space-y-16">
-          {/* <ProjectA
-            title="string"
-            desc="string"
-            imgSrc={}
-            imgAlt="string"
-            projUrl="string"
-          /> */}
-          <ProjectB
-            title="Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo"
-            desc="Developed interactive dashboards using Power BI to visualize Copper & Cobalt production in DR Congo by analysing complex datasets using Python (Pandas). Developed customised data models and advanced visualisations that delivered actionable insights, empowering stakeholders with valuable resources for data-driven decisions regarding mining sector complexities."
-            imgSrc={Proj2}
-            imgAlt="Trade Flow Dashboard of Copper & Cobalt Production in the DR Congo Project Image"
-            projUrl="https://chinaglobalsouth.com/cobaltmap/en/production-flow.html"
-          />
-          <ProjectA
-            title="Interactive Map of Copper & Cobalt Production in the DR Congo"
-            desc="Designed interactive map showcasing Copper & Cobalt production in DR Congo by building crafting visualizations leveraging mining registry data and on-ground research; delivered insights to industry stakeholders in an easy-to-understand and visually compelling format."
-            imgSrc={Proj1}
-            imgAlt="Interactive Map of Copper & Cobalt Production in the DR Congo Project Image"
-            projUrl="https://chinaglobalsouth.com/cobaltmap/en/"
-          />
+        <div className="px-4 space-y-12 sm:space-y-14 ">
+          {PROJECT.map((item, index) => (
+            <Fragment key={index}>
+              <Project {...item} />
+            </Fragment>
+          ))}
         </div>
       </div>
     </section>
