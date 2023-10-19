@@ -1,0 +1,92 @@
+/* @keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.slider {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slider_logos {
+  display: inline-flex;
+  animation: 35s slide infinite linear;
+}
+
+*/
+
+.image {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  overflow: hidden;
+  height: 100px;
+  margin: 16px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slider::before,
+.slider::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.slider:hover .slider_logos {
+  animation-play-state: paused;
+}
+
+.slider_logos {
+  animation: scroll 40s linear infinite;
+  display: flex;
+}
+
+.slider_logos {
+  height: 50px;
+}
+
+.slide_icon {
+  margin: 0 48px;
+}

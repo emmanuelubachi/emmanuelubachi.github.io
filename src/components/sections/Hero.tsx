@@ -5,6 +5,7 @@ import HeroImg from "/public/eu0.png";
 //@ts-ignore
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import IconSlider from "../shared/IconSlider";
 
 const Hero = () => {
   // Create Ref element.
@@ -12,7 +13,11 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["a Data Analyst.", "a Data Visualization Specialist."], // Strings to display
+      strings: [
+        "a Data Analyst.",
+        "a Data Visualization Specialist.",
+        "a Web Developer.",
+      ], // Strings to display
       // Speed settings, try different values until you get good results
       startDelay: 0,
       typeSpeed: 50,
@@ -87,27 +92,8 @@ const Hero = () => {
             captivating data visualizations, immersive dashboards, and
             transformative data platforms.
           </p>
-          {/* From concept to
-            deployment, I&apos;m your partner in leveraging data&apos;s power
-            for a competitive edge. Explore the future of data-driven success
-            with me. */}
-          <div className="flex md:order-2">
-            {/* <button
-              type="button"
-              className="text-white 
-              bg-primary-900 
-              rounded-lg 
-              px-5 py-3 
-              mr-3 md:mr-0
-              font-medium text-sm text-center
-              hover:bg-gradient-to-tr hover:from-primary-800 hover:to-pink-700
-              transition-transform ease-in-out duration-500 hover:scale-110 cursor-pointer
-              focus:ring-4 focus:outline-none focus:ring-blue-300"
-            >
-              BOOK A CALL
-            </button> */}
-          </div>
         </div>
+
         <div className="my-8 md:hidden flex flex-col items-center justify-center order-first md:order-last">
           <div className=" max-w-sm flex flex-col items-center">
             <Image
@@ -140,8 +126,36 @@ const Hero = () => {
           />
         </div>
       </div>
+      <div>
+        <IconSlider />
+      </div>
     </section>
   );
+  {
+    /* From concept to
+            deployment, I&apos;m your partner in leveraging data&apos;s power
+            for a competitive edge. Explore the future of data-driven success
+            with me. */
+  }
+  {
+    /* <div className="max-w-2xl flex md:order-2">
+            <IconSlider />
+            <button
+              type="button"
+              className="text-white 
+              bg-primary-900 
+              rounded-lg 
+              px-5 py-3 
+              mr-3 md:mr-0
+              font-medium text-sm text-center
+              hover:bg-gradient-to-tr hover:from-primary-800 hover:to-pink-700
+              transition-transform ease-in-out duration-500 hover:scale-110 cursor-pointer
+              focus:ring-4 focus:outline-none focus:ring-blue-300"
+            >
+              BOOK A CALL
+            </button>
+          </div> */
+  }
 };
 
 export default Hero;

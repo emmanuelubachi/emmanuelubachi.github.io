@@ -51,12 +51,11 @@ const Resume = () => {
         {/* Resume Section Header */}
         <div className="max-w-2xl mx-auto text-center mb-16 lg:mb-20">
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-900 sm:text-4xl">
-          Experience
+            Experience
           </h2>
           <p
             className="mt-4 font-normal
             text-base
-            sm:text-lg
           text-gray-500"
           >
             {/* Crafted with skill and care to help our clients grow their business! */}

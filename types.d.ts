@@ -4,12 +4,19 @@ type FeatureCardProps = {
   iconName: any;
 };
 
+type BadgeProps = {
+  label: string;
+};
+
 type ProjectCardProps = {
   title: string;
   desc: string;
   imgSrc: any;
   imgAlt: string;
   projUrl: string;
+  badge: BadgeProps | BadgeProps[];
+  inverse: boolean;
+  isLink: boolean;
 };
 
 type ExperienceProp = {

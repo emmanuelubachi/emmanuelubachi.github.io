@@ -13,7 +13,6 @@ const Contact = () => {
           <p
             className="mt-4 font-normal
             text-base
-            sm:text-lg
           text-gray-500"
           >
             Crafted with skill and care to help our clients grow their business!
