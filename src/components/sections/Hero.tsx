@@ -37,7 +37,62 @@ const Hero = () => {
   return (
     <section className="min-[1440px]:mt-8 mt-2">
       {/* <hr className="h-px my-0 bg-gray-200 border-0" /> */}
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto md:gap-8 xl:gap-0 lg:py-16 md:grid-cols-12">
+      <div className="mx-auto sm:mt-52 mt-40 flex flex-col max-w-screen-xl px-4 py-8">
+        <div className="m-auto place-self-center align-middle text-center">
+          <h1
+            className="max-w-2xl mb-2
+            text-gray-600
+            font-bold tracking-wider leading-none
+            text-lg
+            min-[400px]:text-xl
+            sm:text-2xl
+            md:text-2xl
+            lg:text-3xl 
+            xl:text-4xl"
+          >
+            Hi, I&apos;m{" "}
+            <span
+              className="text-transparent bg-clip-text 
+              bg-gradient-to-tr from-primary-800 to-pink-500
+              text-xl
+              min-[400px]:text-2xl
+              sm:text-3xl 
+              md:text-3xl
+              lg:text-4xl 
+              xl:text-5xl"
+            >
+              Emmanuel ubachi
+            </span>
+            <br />
+          </h1>
+          <h1
+            className="max-w-2xl mb-4 
+            text-gray-600
+            font-bold tracking-wider leading-none
+            text-lg
+            min-[400px]:text-xl
+            sm:text-2xl
+            md:text-2xl
+            lg:text-3xl 
+            xl:text-4xl"
+          >
+            <span ref={el} />
+          </h1>
+          <p
+            className="max-w-2xl mb-8
+            text-gray-500 
+            font-normal 
+            text-base leading-7 tracking-tight
+            sm:text-lg sm:leading-8"
+          >
+            I am your gateway to unleashing the potential of your data. Crafting
+            captivating data visualizations, immersive dashboards, and
+            transformative data platforms.
+          </p>
+        </div>
+      </div>
+
+      {/* <div className="grid max-w-screen-xl px-4 py-8 mx-auto md:gap-8 xl:gap-0 lg:py-16 md:grid-cols-12">
         <div className="mr-auto place-self-center order-last md:order-first md:col-span-7">
           <h1
             className="max-w-2xl mb-2
@@ -123,7 +178,8 @@ const Hero = () => {
             }}
           />
         </div>
-      </div>
+      </div> */}
+
       <div>
         <IconSlider />
       </div>
