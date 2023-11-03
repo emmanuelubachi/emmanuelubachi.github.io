@@ -59,7 +59,7 @@ const FeedingThePacific = () => {
           <div className="space-y-3">
             <div className=" flex justify-center">
               <Link
-                href="https://pacific-food-trade.onrender.com"
+                href="https://pacific-food-trade.ubachi.com"
                 className="inline-flex items-center px-14 py-2.5
                   text-md font-medium text-center text-white 
                   bg-pri-13/90 rounded-lg transition-transform ease-in-out duration-300
