@@ -36,7 +36,8 @@ const Project = (props: ProjectCardProps) => {
             rounded-xl 
             shadow-[0_10px_60px_10px_rgba(0,0,0,0.2)]
             shadow-gray-100
-            transform hover:skew-x-2 hover:shadow-2xl hover:shadow-gray-400"
+            transform 
+            hover:shadow-lg hover:shadow-gray-400"
             >
               <div
                 className="gap-2 items-center
@@ -88,7 +89,7 @@ const Project = (props: ProjectCardProps) => {
           rounded-xl 
           shadow-[0_10px_60px_10px_rgba(0,0,0,0.2)]
           shadow-gray-100
-          transform hover:skew-x-2 hover:shadow-2xl hover:shadow-gray-400"
+          transform hover:shadow-lg hover:shadow-gray-400"
             >
               <div
                 className="gap-8 items-center
